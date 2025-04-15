@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(255, 235, 153);
+}
+.container{ 
+    width:80% ;
+    height: 600px;
+    max-width:100%;
+    background-color: FloralWhite;
+    border-radius: 25px;
+    margin: 50px auto;
+    padding: 20px;
+    color:rgb(117, 116, 116);
+    font-family: sans-serif;
+}
+h2{
+    color: black;
+    font-family: serif; 
+}
+h1{
+    color: black;
+    font-size: 45px;
+    line-height: 3rem;
+    font-family: serif; 
+}
+
+nav{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+ .left , .center {
+    display: inline-flex;
+    margin: auto;
+    gap: 10px;
+    /* margin-left: 50px; */
+ }
+.hoster-btn{
+    background-image:linear-gradient(to right , orange, rgb(255, 10, 141));
+    border-radius: 20px;
+    border: transparent;
+    padding: 5px 20px;
+    color: white;
+}
+.center{
+    /* display: inline-flex; */
+    /* margin-left: 100px; */
+    align-items: center;
+}
+.right{ 
+  display: inline-flex;
+  margin-right: 50px;
+  align-items: center;
+  gap: 10px;
+}
+.waitlist-btn{
+    background-color: rgb(29, 163, 216);
+    color: white;
+    padding: 13px;
+    display: inline;
+    border: transparent;
+}
+input{
+    padding: 10px;
+    margin: 10px auto;
+}
+.main{
+    line-height: 30px;
+    padding: 10px;
+    margin: 70px;
+}
+.aside{
+    display:flex;
+    float: right;
+    margin-top: -50px;
+    max-width: 100%;
+}
+.check-box{
+    display:flex;
+    margin-top: 10px;
+    align-items: center;
+}
+.check{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+footer{ 
+    width: 100%;
+    margin: auto;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(117, 116, 116) ;
+}
+.ancr{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 100px ;
+    margin-bottom: -50px;
+    gap: 9px;
+    font-size:14px;
+}
+
+.talk{
+    float: right;
+    margin-right: 150px;
+    margin-top: -55px;
+  
+}
+#qury{
+    color: rgb(117, 116, 116);
+    font-family: sans-serif;
+    font-size: 14px;
+
+}
+
+footer p{
+    font-weight:600;
+    color: black;
+    text-align: right;
+}
